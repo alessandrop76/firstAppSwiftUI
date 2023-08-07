@@ -10,18 +10,12 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-<<<<<<< HEAD
 
-=======
->>>>>>> ea7c953 (first commit)
         ZStack {
           
             Color.green.ignoresSafeArea()
 
-<<<<<<< HEAD
-=======
-            
->>>>>>> ea7c953 (first commit)
+
             Image("brasil")
                 .resizable()
                 .padding(.bottom, 310.0)
@@ -33,7 +27,7 @@ struct ContentView: View {
           Image(systemName: "globe")
                 .imageScale(.large)
                 .foregroundColor(.accentColor)
-<<<<<<< HEAD
+
 
 
             
@@ -48,9 +42,7 @@ struct ContentView: View {
           Image(systemName: "globe")
                 .imageScale(.large)
                 .foregroundColor(.accentColor)
-            
-=======
->>>>>>> ea7c953 (first commit)
+
                 .frame(width: 50.0, height: 50.0)
                 .padding(.bottom, 450.0)
            
@@ -78,10 +70,6 @@ struct ContentView: View {
     struct ContentView_Previews: PreviewProvider {
         static var previews: some View {
             ContentView()
-<<<<<<< HEAD
-
-=======
->>>>>>> ea7c953 (first commit)
         }
     }
 }
