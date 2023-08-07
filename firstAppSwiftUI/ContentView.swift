@@ -19,7 +19,9 @@ struct ContentView: View {
             Button(action: {}) {
                 Text("Clique Aqui")
                     .padding(.top, 300.0)
-                    .foregroundColor(.red)
+                    .foregroundColor(.blue)
+                    .bold(true)
+                    
             }
         }
         .padding()
