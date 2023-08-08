@@ -24,20 +24,6 @@ struct ContentView: View {
                      
                 }
                        
-          Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-
-
-
-            
-            Image("brasil")
-                .resizable()
-                .padding(.bottom, 310.0)
-                .cornerRadius(688.0)
-                .refreshable {
-                     
-                }
                        
           Image(systemName: "globe")
                 .imageScale(.large)
@@ -54,7 +40,7 @@ struct ContentView: View {
                     .frame(width: 200.0, height: 200.0)
                 
             Button( action: {} ){
-                Text("58 62 70 94 02")
+                Text("58 - 62 - 70 - 94 - 02")
                     .font(.title)
                     .fontWeight(.bold)
                     .foregroundColor(.cyan)
